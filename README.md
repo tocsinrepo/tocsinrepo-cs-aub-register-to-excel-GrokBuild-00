@@ -1,18 +1,10 @@
-# Bank Register vs GL Reconciliation Tool
+# Bank vs GL Reconciliation Tool
 
-A Streamlit web app to compare Bank Register and General Ledger Excel files.
+Compare Bank Register and General Ledger. Highlights missing items and provides a separate file with only missing transactions.
 
-## Features
-- Upload Excel files directly in browser
-- Smart column selection
-- Highlights missing items
-- Downloads **only missing items** in a separate file
-
-## How to Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Deployed on Streamlit Cloud
-https://tocsinrepo-cs-aub-register-to-excel-grokbuild-00-xxx.streamlit.app
+## How to Use
+1. Upload your Bank Register Excel
+2. Upload your GL Excel
+3. Select the correct columns
+4. Click "Run Reconciliation"
+5. Download the results
